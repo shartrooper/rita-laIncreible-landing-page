@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,14 +9,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
+    <link rel="stylesheet" href="/large-style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 420px)" href="/mobile-style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 420px) and (max-width:1024px)" href="/medium-style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
+    <a name="upwards" id="anchor-hidden" href="#"></a>
     <div id="grid-container">
-       
+      <div id="header">
+        <div id="ot-logo-side">
+          <img class="ot-logo" src="https://cdn.glitch.com/4a7ba499-df3d-4e00-9ea2-bd3b6f91f373%2FRITAlogo.png?v=1576334844963" alt="logo de la empresa" />
+        </div>
+        <div class="ot-module">
+          <ul id="items">
+            <li><a href="#">¿Quiénes somos?</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Acta Constitutiva</a></li>
+            <li><a href="#">Actas Asamblea</a></li>
+            <li><a href="#">Comprobantes</a></li>
+            <li><a href="#">Curriculum Laboral</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="body-container">
+        <div class="a-rect"></div>
+        <div class="b-rect"></div>
+        <div class="c-rect"></div>
+      </div>
+      <div id="footer">
+        <div id="left-side">
+          <div id="fot-logo-side">
+            <img class="ot-logo" src="https://cdn.glitch.com/4a7ba499-df3d-4e00-9ea2-bd3b6f91f373%2FRITAlogo.png?v=1576334844963" alt="logo de la empresa" />
+          </div>
+          <p>Calle 12 Sur, casa n° 12, Sector Pueblo Nuevo Sur,  El Tigre, Anzoátegui.
+            <br/>
+            (0283) 235.12.87
+          </p>
+        </div>
+        <div id="right-side">
+          <p id="copyright">
+            2019 Copyright Rita C.A 
+            <br/>
+            Servicios,construcciones y mantenimientos
+            <br/>
+            RIF:30976072-6
+          </p>
+          <a href="#upwards"
+            ><i class="material-icons">
+              keyboard_arrow_up
+            </i></a
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
