@@ -1,69 +1,121 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>RITA</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/large-style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 420px)" href="/mobile-style.css" />
-    <link rel="stylesheet" media="screen and (min-width: 420px) and (max-width:1024px)" href="/medium-style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <a name="upwards" id="anchor-hidden" href="#"></a>
-    <div id="grid-container">
-      <div id="header">
-        <div id="ot-logo-side">
-          <img class="ot-logo" src="https://cdn.glitch.com/4a7ba499-df3d-4e00-9ea2-bd3b6f91f373%2FRITAlogo.png?v=1576334844963" alt="logo de la empresa" />
-        </div>
-        <div class="ot-module">
-          <ul id="items">
-            <li><a href="#">¿Quiénes somos?</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Acta Constitutiva</a></li>
-            <li><a href="#">Actas Asamblea</a></li>
-            <li><a href="#">Comprobantes</a></li>
-            <li><a href="#">Curriculum Laboral</a></li>
-          </ul>
-        </div>
+<head>
+  <title>RITA</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="large-style.css" />
+  <link rel="stylesheet" href="intro/intro.css">
+  <link rel="stylesheet" href="modal.css">
+  <link rel="stylesheet" media="screen and (max-width: 420px)" href="intro/mobile-intro.css" />
+  <link rel="stylesheet" media="screen and (max-width: 420px)" href="mobile-style.css" />
+  <link rel="stylesheet" media="screen and (min-width: 420px) and (max-width:1024px)" href="medium-style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- import the webpage's javascript file -->
+  <script src="intro/script.js" defer></script>
+  <script src="modalviewer.js"></script>
+</head>
+
+<body>
+  <a name="upwards" id="anchor-hidden" href="#"></a>
+  <div id="grid-container">
+    <div id="header">
+      <div id="ot-logo-side">
+        <img class="ot-logo"
+          src="https://cdn.glitch.com/4a7ba499-df3d-4e00-9ea2-bd3b6f91f373%2FRITAlogo.png?v=1576334844963"
+          alt="logo de la empresa" />
       </div>
-      <div id="body-container">
-        <div class="a-rect"></div>
-        <div class="b-rect"></div>
-        <div class="c-rect"></div>
+      <div class="ot-module">
+        <ul id="items">
+          <li><a href="index.html">¿Quiénes somos?</a></li>
+          <li><a href="addresses/addresses.html">Contacto</a></li>
+          <li><a href="actas/actas.html">Actas Asamblea</a></li>
+          <li><a href="Comprobantes/comprobantes.html">Comprobantes</a></li>
+          <li><a href="#">Curriculum Laboral</a></li>
+        </ul>
       </div>
-      <div id="footer">
-        <div id="left-side">
-          <div id="fot-logo-side">
-            <img class="ot-logo" src="https://cdn.glitch.com/4a7ba499-df3d-4e00-9ea2-bd3b6f91f373%2FRITAlogo.png?v=1576334844963" alt="logo de la empresa" />
-          </div>
-          <p>Calle 12 Sur, casa n° 12, Sector Pueblo Nuevo Sur,  El Tigre, Anzoátegui.
-            <br/>
-            (0283) 235.12.87
+    </div>
+    <div id="body-container">
+      <div class="a-rect">
+        <div id="frame_1" class="sub-rect"></div>
+        <div id="frame_2" class="sub-rect"></div>
+        <div id="frame_3" class="sub-rect"></div>
+        <div id="frame_4" class="sub-rect"></div>
+        <div id="intro_text">
+          <p>Desde su inauguración el 14 de Enero de 2003 en El Tigre, Anzoátegui; las actividades de la empresa <b>Servicios, Construcciones y Mantenimientos Rita, C.A. (RITACA)</b> han abarcado diversas áreas industriales:
+           Diseño, Construcción y Mantenimiento Civil y Mecánico de Instalaciones Industriales. Construcción y Mantenimiento  de Sistemas Eléctricos y de Instrumentación; Construcción y Mantenimiento de Vialidad, Saneamiento Ambiental;
+            Operación de Instalaciones Industriales y Petroleras, entre otras.
+            Siempre contemplando las normas y decretos nacionales vigentes correspondientes para cada proyecto en ejecución, 
+            preservando el medio ambiente, la higiene y la seguridad de su personal.
           </p>
         </div>
-        <div id="right-side">
-          <p id="copyright">
-            2019 Copyright Rita C.A 
-            <br/>
-            Servicios,construcciones y mantenimientos
-            <br/>
-            RIF:30976072-6
+      </div>
+      <div class="b-rect">
+        <article class="paragraph">
+          <h2>MISIÓN</h2>
+          <p><b>SERVICIOS, CONSTRUCCIONES Y MANTENIMIENTOS RITA, C.A.</b>, es una empresa dedicada a la prestación de
+            servicios de excelente calidad,
+            al mercado industrial y petrolero, específicamente a la construcción de obras civiles en general,
+            electricidad, asfaltado,
+            transporte liviano y pesado, saneamiento ambiental y otras actividades relacionadas, cubriendo
+            satisfactoriamente las necesidades
+            de nuestros Clientes como de la empresa. Nuestros servicios son realizados bajo el cumplimiento estricto de
+            las Normas vigentes de
+            Calidad, Seguridad y Ambiente, y son ejecutados por personal de alto nivel en constante adiestramiento, en
+            virtud del
+            mejoramiento continuo de los procesos llevados a cabo por la organización.
           </p>
-          <a href="#upwards"
-            ><i class="material-icons">
-              keyboard_arrow_up
-            </i></a
-          >
+        </article>
+        <article class="paragraph">
+          <h2>VISIÓN</h2>
+          <p><b>SERVICIOS, CONSTRUCCIONES Y MANTENIMIENTOS RITA, C.A.</b>, busca proyectarse y establecerse en el mercado
+              nacional e internacional como una empresa de excelente competitividad en la prestación de servicios
+              industriales y petroleros; garantizando la satisfacción de las necesidades de nuestros clientes a través
+              del trabajo en equipo, la innovación tecnológica, alta productividad, excelentes costos y rapidez en el
+              tiempo de ejecución de nuestros trabajos.
+          </p>
+        </article>
+        <a class="prev" onclick="arrowSlider()">&#10094;</a>
+        <a class="next" onclick="arrowSlider()">&#10095;</a>
+        <div class="dot-selector">
+          <span class="dot" onclick="SliderShow().b(0)"></span>
+          <span class="dot" onclick="SliderShow().b(1)"></span>
         </div>
       </div>
     </div>
-  </body>
+    <div id="footer">
+      <div id="left-side">
+        <div id="fot-logo-side">
+          <img class="ot-logo"
+            src="https://cdn.glitch.com/4a7ba499-df3d-4e00-9ea2-bd3b6f91f373%2FRITAlogo.png?v=1576334844963"
+            alt="logo de la empresa" />
+        </div>
+        <p>Calle 12 Sur, casa n° 12, Sector Pueblo Nuevo Sur, El Tigre, Anzoátegui.
+          <br />
+          (0283) 235.12.87
+        </p>
+      </div>
+      <div id="right-side">
+        <p id="copyright">
+          2019 Copyright Rita C.A
+          <br />
+          Servicios,construcciones y mantenimientos
+          <br />
+          RIF:30976072-6
+        </p>
+        <a href="#upwards"><i class="material-icons">
+            keyboard_arrow_up
+          </i></a>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <iframe  id="frame_viewer" frameborder="0"></iframe>
+    </div>
+  </div>
+</body>
+
 </html>
