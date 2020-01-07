@@ -1,0 +1,13 @@
+
+#body-container
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  background-color: #1773a8;
+  color: rgb(250, 250, 250);
+}
+
+.btn_actas{
+ color: aliceblue;
+}
