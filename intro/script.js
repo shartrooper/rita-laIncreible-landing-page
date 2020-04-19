@@ -45,7 +45,6 @@ const SliderShow = () => {
       found = newArr.find(ele => ele === aux);
     }
     let selectedElem = document.getElementById("num_" + newArr[getaRanNumber(3)]);
-    /**/
     selectedElem.id = "num_" + imgArr[aux].item;
     selectedElem.classList.add('fadeIn');
 
